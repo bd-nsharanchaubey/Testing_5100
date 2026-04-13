@@ -2,7 +2,7 @@ name: "Upload SARIF"
 
 on:
   push:
-    branches: [ main, dev ]
+    branches: [ main, old_sarif ]
 
 jobs:
   build:
