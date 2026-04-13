@@ -2,7 +2,7 @@ name: "Upload SARIF"
 
 on:
   push:
-    branches: [ main ]
+    branches: [ main, sarif_with_311_bridge ]
 
 jobs:
   build:
