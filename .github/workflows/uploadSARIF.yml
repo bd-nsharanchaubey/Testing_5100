@@ -2,7 +2,7 @@ name: "Upload SARIF"
 
 on:
   push:
-    branches: [ main, polaris_sca_old ]
+    branches: [ main, bd_sca_latest ]
 
 jobs:
   build:
